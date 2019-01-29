@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXFileReference section */
+		1A476006BBAC9BF5BD409B5A /* bitcoin-tx-res.rc */ = {isa = PBXFileReference; lastKnownFileType = file.rc; name = "bitcoin-tx-res.rc"; path = "bitcoin-0.12.1/src/bitcoin-tx-res.rc"; sourceTree = "<group>"; };
+		1A47601E45B60167A4FAC2D8 /* addrman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = addrman.cpp; path = "bitcoin-0.12.1/src/addrman.cpp"; sourceTree = "<group>"; };
+		1A47602110A5B8228492F875 /* libbitcoin_common.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbitcoin_common.a; path = "bitcoin-0.12.1/src/libbitcoin_common.a"; sourceTree = "<group>"; };
+		1A4760473701F878A4E3F4AB /* libbitcoin_server_a-timedata.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-timedata.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-timedata.o"; sourceTree = "<group>"; };
+		1A47606CDAB1DEE7BE194C3B /* bloom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bloom.cpp; path = "bitcoin-0.12.1/src/bloom.cpp"; sourceTree = "<group>"; };
+		1A4760738A0B8181524B89C2 /* versionbits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = versionbits.h; path = "bitcoin-0.12.1/src/versionbits.h"; sourceTree = "<group>"; };
+		1A47608BC8C63A13CF4E1F14 /* txmempool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = txmempool.h; path = "bitcoin-0.12.1/src/txmempool.h"; sourceTree = "<group>"; };
+		1A4760AC5576FEF469D5FFBB /* dbwrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dbwrapper.cpp; path = "bitcoin-0.12.1/src/dbwrapper.cpp"; sourceTree = "<group>"; };
+		1A4760FEC7856EE358FFDF89 /* threadsafety.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = threadsafety.h; path = "bitcoin-0.12.1/src/threadsafety.h"; sourceTree = "<group>"; };
+		1A476106BE1C281E30FD93DE /* alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = alert.h; path = "bitcoin-0.12.1/src/alert.h"; sourceTree = "<group>"; };
+		1A47613198A62ED6D97EABBC /* amount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = amount.h; path = "bitcoin-0.12.1/src/amount.h"; sourceTree = "<group>"; };
+		1A476137E7CB87B1BCCE9D3F /* chainparamsseeds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chainparamsseeds.h; path = "bitcoin-0.12.1/src/chainparamsseeds.h"; sourceTree = "<group>"; };
+		1A476149914A6FF7C90F6254 /* limitedmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = limitedmap.h; path = "bitcoin-0.12.1/src/limitedmap.h"; sourceTree = "<group>"; };
+		1A47617D212ECD0402B86F57 /* coins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = coins.h; path = "bitcoin-0.12.1/src/coins.h"; sourceTree = "<group>"; };
+		1A47618D682A335ADA362DA3 /* txdb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = txdb.cpp; path = "bitcoin-0.12.1/src/txdb.cpp"; sourceTree = "<group>"; };
+		1A4761BE683E30AE32D6C10B /* checkpoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = checkpoints.h; path = "bitcoin-0.12.1/src/checkpoints.h"; sourceTree = "<group>"; };
+		1A4761C25D2D6B4E08532303 /* protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = protocol.h; path = "bitcoin-0.12.1/src/protocol.h"; sourceTree = "<group>"; };
+		1A4761CA3163524E5C43B81B /* obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = obj; path = "bitcoin-0.12.1/src/obj"; sourceTree = "<group>"; };
+		1A4761CDF51A8FBFBB6838AE /* libbitcoin_server_a-init.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-init.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-init.o"; sourceTree = "<group>"; };
+		1A4761EFD2197F5744C790B0 /* libbitcoin_server_a-net.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-net.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-net.o"; sourceTree = "<group>"; };
+		1A47620A7077BE8F2DB5E5DA /* netbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = netbase.cpp; path = "bitcoin-0.12.1/src/netbase.cpp"; sourceTree = "<group>"; };
+		1A47621523311244E7A4B641 /* httprpc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = httprpc.cpp; path = "bitcoin-0.12.1/src/httprpc.cpp"; sourceTree = "<group>"; };
+		1A47624248EDBFC8EB9C41D6 /* leveldb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = leveldb; path = "bitcoin-0.12.1/src/leveldb"; sourceTree = "<group>"; };
+		1A47624A069A104BC52A393F /* sync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sync.h; path = "bitcoin-0.12.1/src/sync.h"; sourceTree = "<group>"; };
+		1A47625AEF2F22F684C08F8D /* libbitcoin_server_a-rpcblockchain.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-rpcblockchain.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-rpcblockchain.o"; sourceTree = "<group>"; };
+		1A47626D05E8849E397126A1 /* libbitcoin_server_a-merkleblock.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-merkleblock.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-merkleblock.o"; sourceTree = "<group>"; };
+		1A476270C1BDC98DC83F9FBE /* keystore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = keystore.cpp; path = "bitcoin-0.12.1/src/keystore.cpp"; sourceTree = "<group>"; };
+		1A47627159A5CBAF0E7404B3 /* utilstrencodings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utilstrencodings.h; path = "bitcoin-0.12.1/src/utilstrencodings.h"; sourceTree = "<group>"; };
+		1A47627BE2F059C3024F4F24 /* compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compat.h; path = "bitcoin-0.12.1/src/compat.h"; sourceTree = "<group>"; };
+		1A476288C1E4386532F082E3 /* coins.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = coins.cpp; path = "bitcoin-0.12.1/src/coins.cpp"; sourceTree = "<group>"; };
+		1A4762AA320EC8B1EA62BB50 /* libbitcoin_server_a-pow.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-pow.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-pow.o"; sourceTree = "<group>"; };
+		1A4762B196A08D1338699FD5 /* bitcoind-res.rc */ = {isa = PBXFileReference; lastKnownFileType = file.rc; name = "bitcoind-res.rc"; path = "bitcoin-0.12.1/src/bitcoind-res.rc"; sourceTree = "<group>"; };
+		1A4762B618479E1BDC91D889 /* chainparams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = chainparams.cpp; path = "bitcoin-0.12.1/src/chainparams.cpp"; sourceTree = "<group>"; };
+		1A4762C49568612EC4FC1EF5 /* test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = test; path = "bitcoin-0.12.1/src/test"; sourceTree = "<group>"; };
+		1A4762DF41F4CF4511BE8BCA /* core_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = core_io.h; path = "bitcoin-0.12.1/src/core_io.h"; sourceTree = "<group>"; };
+		1A47634D2AA4DF984FD98A3E /* arith_uint256.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = arith_uint256.cpp; path = "bitcoin-0.12.1/src/arith_uint256.cpp"; sourceTree = "<group>"; };
+		1A47635E33E1E96B6347DE85 /* undo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = undo.h; path = "bitcoin-0.12.1/src/undo.h"; sourceTree = "<group>"; };
+		1A47636C553F95D51427F9D0 /* chainparamsbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = chainparamsbase.cpp; path = "bitcoin-0.12.1/src/chainparamsbase.cpp"; sourceTree = "<group>"; };
+		1A47637128827440C0AB9754 /* checkqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = checkqueue.h; path = "bitcoin-0.12.1/src/checkqueue.h"; sourceTree = "<group>"; };
+		1A47637EE96848BDB6423F2E /* timedata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timedata.h; path = "bitcoin-0.12.1/src/timedata.h"; sourceTree = "<group>"; };
+		1A4763850C8092788F8FD590 /* rpcnet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rpcnet.cpp; path = "bitcoin-0.12.1/src/rpcnet.cpp"; sourceTree = "<group>"; };
+		1A476399E0F2C6E42F453DA2 /* bench */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = bench; path = "bitcoin-0.12.1/src/bench"; sourceTree = "<group>"; };
+		1A4763ACB8989249BDDA5BCE /* bitcoin-cli-res.rc */ = {isa = PBXFileReference; lastKnownFileType = file.rc; name = "bitcoin-cli-res.rc"; path = "bitcoin-0.12.1/src/bitcoin-cli-res.rc"; sourceTree = "<group>"; };
+		1A4763BA6A641AAB5075D8C8 /* netbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = netbase.h; path = "bitcoin-0.12.1/src/netbase.h"; sourceTree = "<group>"; };
+		1A4763BD5FDF2249FB6DA2B1 /* httprpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = httprpc.h; path = "bitcoin-0.12.1/src/httprpc.h"; sourceTree = "<group>"; };
+		1A4763C30703F6DFD6590402 /* noui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = noui.cpp; path = "bitcoin-0.12.1/src/noui.cpp"; sourceTree = "<group>"; };
+		1A4763C337E36D5B3A2BA2E9 /* libbitcoin_wallet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbitcoin_wallet.a; path = "bitcoin-0.12.1/src/libbitcoin_wallet.a"; sourceTree = "<group>"; };
+		1A4763D49CD84EE1443E96A1 /* rpcblockchain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rpcblockchain.cpp; path = "bitcoin-0.12.1/src/rpcblockchain.cpp"; sourceTree = "<group>"; };
+		1A4763F2E0F3046AB16C9D0D /* dbwrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dbwrapper.h; path = "bitcoin-0.12.1/src/dbwrapper.h"; sourceTree = "<group>"; };
+		1A476440574926E3F73C261A /* chain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = chain.cpp; path = "bitcoin-0.12.1/src/chain.cpp"; sourceTree = "<group>"; };
+		1A47645585096C58C2002A4C /* protocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = protocol.cpp; path = "bitcoin-0.12.1/src/protocol.cpp"; sourceTree = "<group>"; };
+		1A47645DAFAC22883A04F0CE /* rpcrawtransaction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rpcrawtransaction.cpp; path = "bitcoin-0.12.1/src/rpcrawtransaction.cpp"; sourceTree = "<group>"; };
+		1A476468CB0550220F77BB01 /* utilmoneystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = utilmoneystr.cpp; path = "bitcoin-0.12.1/src/utilmoneystr.cpp"; sourceTree = "<group>"; };
+		1A47646CF272D63AE7C661BC /* compressor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = compressor.cpp; path = "bitcoin-0.12.1/src/compressor.cpp"; sourceTree = "<group>"; };
+		1A476470D75745315961874D /* base58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = base58.h; path = "bitcoin-0.12.1/src/base58.h"; sourceTree = "<group>"; };
+		1A47648A89A3126F8A937EDD /* univalue */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = univalue; path = "bitcoin-0.12.1/src/univalue"; sourceTree = "<group>"; };
+		1A47648E67CEE5C8AB88CC36 /* libbitcoin_cli.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbitcoin_cli.a; path = "bitcoin-0.12.1/src/libbitcoin_cli.a"; sourceTree = "<group>"; };
+		1A476494E918332D20899BFF /* chainparamsbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chainparamsbase.h; path = "bitcoin-0.12.1/src/chainparamsbase.h"; sourceTree = "<group>"; };
+		1A4764BDF7A3226F6BB21B09 /* crypto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = crypto; path = "bitcoin-0.12.1/src/crypto"; sourceTree = "<group>"; };
+		1A4764DA22A758428C77396C /* rpcclient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rpcclient.cpp; path = "bitcoin-0.12.1/src/rpcclient.cpp"; sourceTree = "<group>"; };
+		1A4764F5A1BBBB779305EFBC /* httpserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = httpserver.cpp; path = "bitcoin-0.12.1/src/httpserver.cpp"; sourceTree = "<group>"; };
+		1A47655A4F077A77156CCE28 /* net.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = net.cpp; path = "bitcoin-0.12.1/src/net.cpp"; sourceTree = "<group>"; };
+		1A47656B6F6B302E9AB38FB2 /* zmq */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = zmq; path = "bitcoin-0.12.1/src/zmq"; sourceTree = "<group>"; };
+		1A4765802D2537F23081EEFC /* util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = util.cpp; path = "bitcoin-0.12.1/src/util.cpp"; sourceTree = "<group>"; };
+		1A476586784657F42833FD32 /* timedata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = timedata.cpp; path = "bitcoin-0.12.1/src/timedata.cpp"; sourceTree = "<group>"; };
+		1A4765A2B06783865E19893A /* txdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = txdb.h; path = "bitcoin-0.12.1/src/txdb.h"; sourceTree = "<group>"; };
+		1A4765D5EB5A385BACD0593C /* miner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = miner.cpp; path = "bitcoin-0.12.1/src/miner.cpp"; sourceTree = "<group>"; };
+		1A4765D762D8034FF071778D /* merkleblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = merkleblock.h; path = "bitcoin-0.12.1/src/merkleblock.h"; sourceTree = "<group>"; };
+		1A4765FB13AA0324B72A5277 /* rpcmisc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rpcmisc.cpp; path = "bitcoin-0.12.1/src/rpcmisc.cpp"; sourceTree = "<group>"; };
+		1A4766151C45A8A6D4BD7FD3 /* core_memusage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = core_memusage.h; path = "bitcoin-0.12.1/src/core_memusage.h"; sourceTree = "<group>"; };
+		1A47662A385B976C426BB730 /* torcontrol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = torcontrol.h; path = "bitcoin-0.12.1/src/torcontrol.h"; sourceTree = "<group>"; };
+		1A4766547841FC09240147E3 /* utiltime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = utiltime.cpp; path = "bitcoin-0.12.1/src/utiltime.cpp"; sourceTree = "<group>"; };
+		1A47669AB92BA31EE9AE6E11 /* sync.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sync.cpp; path = "bitcoin-0.12.1/src/sync.cpp"; sourceTree = "<group>"; };
+		1A4766ABCA1A2F89C85DF4F5 /* rpcprotocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rpcprotocol.h; path = "bitcoin-0.12.1/src/rpcprotocol.h"; sourceTree = "<group>"; };
+		1A47670820E2DB63A7ED319E /* init.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = init.cpp; path = "bitcoin-0.12.1/src/init.cpp"; sourceTree = "<group>"; };
+		1A47670BA274348612B39908 /* scheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scheduler.h; path = "bitcoin-0.12.1/src/scheduler.h"; sourceTree = "<group>"; };
+		1A47670BEAF1320D7F5E1184 /* libbitcoin_server_a-dbwrapper.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-dbwrapper.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-dbwrapper.o"; sourceTree = "<group>"; };
+		1A476712DD8FCBF1B0BC4F2B /* bitcoind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bitcoind.cpp; path = "bitcoin-0.12.1/src/bitcoind.cpp"; sourceTree = "<group>"; };
+		1A47672C0187561F632A1A72 /* addrman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = addrman.h; path = "bitcoin-0.12.1/src/addrman.h"; sourceTree = "<group>"; };
+		1A476742C572BF0FAF26C594 /* libbitcoin_server_a-rpcmisc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-rpcmisc.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-rpcmisc.o"; sourceTree = "<group>"; };
+		1A47675054C63C36A143DC17 /* wallet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = wallet; path = "bitcoin-0.12.1/src/wallet"; sourceTree = "<group>"; };
+		1A4767B9F500B2B7EAF1109B /* txmempool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = txmempool.cpp; path = "bitcoin-0.12.1/src/txmempool.cpp"; sourceTree = "<group>"; };
+		1A4767BB5B3B6D689BD30FD3 /* core_read.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = core_read.cpp; path = "bitcoin-0.12.1/src/core_read.cpp"; sourceTree = "<group>"; };
+		1A4767F83933297FC647E6E3 /* reverselock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = reverselock.h; path = "bitcoin-0.12.1/src/reverselock.h"; sourceTree = "<group>"; };
+		1A476824A9B8128D3B26B47F /* rpcclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rpcclient.h; path = "bitcoin-0.12.1/src/rpcclient.h"; sourceTree = "<group>"; };
+		1A47683D9F7A00064E48FE34 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "bitcoin-0.12.1/src/main.cpp"; sourceTree = "<group>"; };
+		1A47684044B83FB87A82CE75 /* memusage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = memusage.h; path = "bitcoin-0.12.1/src/memusage.h"; sourceTree = "<group>"; };
+		1A4768528C6BBEF97275D42C /* pow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pow.h; path = "bitcoin-0.12.1/src/pow.h"; sourceTree = "<group>"; };
+		1A476853182EC9A8EBB4451A /* key.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = key.cpp; path = "bitcoin-0.12.1/src/key.cpp"; sourceTree = "<group>"; };
+		1A47685763BF46A9A15095AD /* prevector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = prevector.h; path = "bitcoin-0.12.1/src/prevector.h"; sourceTree = "<group>"; };
+		1A4768797CAD6226C9C22767 /* rpcserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rpcserver.h; path = "bitcoin-0.12.1/src/rpcserver.h"; sourceTree = "<group>"; };
+		1A4768AB217F0666F4623E7F /* uint256.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uint256.cpp; path = "bitcoin-0.12.1/src/uint256.cpp"; sourceTree = "<group>"; };
+		1A4768D3F465727A045BA2C3 /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hash.h; path = "bitcoin-0.12.1/src/hash.h"; sourceTree = "<group>"; };
+		1A4768D566F5F8A377A52A9E /* libbitcoin_server_a-checkpoints.o-8666c861 */ = {isa = PBXFileReference; lastKnownFileType = "file.o-8666c861"; name = "libbitcoin_server_a-checkpoints.o-8666c861"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-checkpoints.o-8666c861"; sourceTree = "<group>"; };
+		1A4768E664E4C6010463E3CF /* libbitcoin_server.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbitcoin_server.a; path = "bitcoin-0.12.1/src/libbitcoin_server.a"; sourceTree = "<group>"; };
+		1A4768F3AFE982CAC18DF1E7 /* libbitcoin_server_a-rpcrawtransaction.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-rpcrawtransaction.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-rpcrawtransaction.o"; sourceTree = "<group>"; };
+		1A4768FB078C1649799BE72D /* libbitcoin_server_a-rpcnet.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-rpcnet.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-rpcnet.o"; sourceTree = "<group>"; };
+		1A47690961B3E526EAB2A800 /* key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = key.h; path = "bitcoin-0.12.1/src/key.h"; sourceTree = "<group>"; };
+		1A47691A2E3ABB6E1E88B469 /* utiltime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utiltime.h; path = "bitcoin-0.12.1/src/utiltime.h"; sourceTree = "<group>"; };
+		1A476932B625BF7CFF17574E /* libbitcoin_server_a-alert.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-alert.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-alert.o"; sourceTree = "<group>"; };
+		1A47698D960706074222BB52 /* qt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = qt; path = "bitcoin-0.12.1/src/qt"; sourceTree = "<group>"; };
+		1A4769A8FE017352C5D26931 /* libbitcoin_server_a-torcontrol.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-torcontrol.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-torcontrol.o"; sourceTree = "<group>"; };
+		1A4769B0F803CBF66B240589 /* rpcprotocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rpcprotocol.cpp; path = "bitcoin-0.12.1/src/rpcprotocol.cpp"; sourceTree = "<group>"; };
+		1A4769B2E9F30D696A3357F8 /* libbitcoin_server_a-txmempool.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-txmempool.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-txmempool.o"; sourceTree = "<group>"; };
+		1A4769BBE13EA39DE7F250F5 /* chainparams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chainparams.h; path = "bitcoin-0.12.1/src/chainparams.h"; sourceTree = "<group>"; };
+		1A4769C949B6F6E16303919E /* libbitcoin_server_a-miner.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-miner.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-miner.o"; sourceTree = "<group>"; };
+		1A4769D7B91AB6EC8AD03757 /* consensus */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = consensus; path = "bitcoin-0.12.1/src/consensus"; sourceTree = "<group>"; };
+		1A4769D86BB61B2888033389 /* config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = config; path = "bitcoin-0.12.1/src/config"; sourceTree = "<group>"; };
+		1A4769E25577CF5B0DED0118 /* libbitcoin_server_a-rest.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-rest.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-rest.o"; sourceTree = "<group>"; };
+		1A4769F1731C9700E7EDCF19 /* libbitcoin_server_a-chain.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-chain.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-chain.o"; sourceTree = "<group>"; };
+		1A476A33E01A7D0D0B1483EA /* serialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = serialize.h; path = "bitcoin-0.12.1/src/serialize.h"; sourceTree = "<group>"; };
+		1A476A626623657CFD3419F1 /* libbitcoin_server_a-addrman.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-addrman.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-addrman.o"; sourceTree = "<group>"; };
+		1A476A6EFE68D33149C16368 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = main.h; path = "bitcoin-0.12.1/src/main.h"; sourceTree = "<group>"; };
+		1A476A727C119EDE032861F5 /* chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chain.h; path = "bitcoin-0.12.1/src/chain.h"; sourceTree = "<group>"; };
+		1A476A75F55A86A3B5A7D39F /* Makefile.bench.include */ = {isa = PBXFileReference; lastKnownFileType = file.include; name = Makefile.bench.include; path = "bitcoin-0.12.1/src/Makefile.bench.include"; sourceTree = "<group>"; };
+		1A476AAFDF0B45EF474E2D13 /* coincontrol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = coincontrol.h; path = "bitcoin-0.12.1/src/coincontrol.h"; sourceTree = "<group>"; };
+		1A476AB0A04D75C73E20E618 /* policy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = policy; path = "bitcoin-0.12.1/src/policy"; sourceTree = "<group>"; };
+		1A476AB85E58D33E9C6A57E6 /* libbitcoin_server_a-rpcserver.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-rpcserver.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-rpcserver.o"; sourceTree = "<group>"; };
+		1A476AC32353308FAD37DBB6 /* random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = random.cpp; path = "bitcoin-0.12.1/src/random.cpp"; sourceTree = "<group>"; };
+		1A476ACC4EFD5741AAE264E3 /* uint256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uint256.h; path = "bitcoin-0.12.1/src/uint256.h"; sourceTree = "<group>"; };
+		1A476ACDC1B6E967DAC38FD5 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = random.h; path = "bitcoin-0.12.1/src/random.h"; sourceTree = "<group>"; };
+		1A476AD5E68366D10E6108AF /* bitcoin-tx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "bitcoin-tx.cpp"; path = "bitcoin-0.12.1/src/bitcoin-tx.cpp"; sourceTree = "<group>"; };
+		1A476AE9E84ED4C1AB4CFFD3 /* primitives */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = primitives; path = "bitcoin-0.12.1/src/primitives"; sourceTree = "<group>"; };
+		1A476AFC49AC65230E2DD0C5 /* merkleblock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = merkleblock.cpp; path = "bitcoin-0.12.1/src/merkleblock.cpp"; sourceTree = "<group>"; };
+		1A476B106F33E3DED7CE3979 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = file.am; name = Makefile.am; path = "bitcoin-0.12.1/src/Makefile.am"; sourceTree = "<group>"; };
+		1A476B21A49D4DFFC9BC62A5 /* utilstrencodings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = utilstrencodings.cpp; path = "bitcoin-0.12.1/src/utilstrencodings.cpp"; sourceTree = "<group>"; };
+		1A476B3531F0246D471001C8 /* libbitcoin_server_a-httprpc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-httprpc.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-httprpc.o"; sourceTree = "<group>"; };
+		1A476B3B863AB857C825ECE4 /* validationinterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = validationinterface.cpp; path = "bitcoin-0.12.1/src/validationinterface.cpp"; sourceTree = "<group>"; };
+		1A476B4555751C4781F21BDC /* validationinterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = validationinterface.h; path = "bitcoin-0.12.1/src/validationinterface.h"; sourceTree = "<group>"; };
+		1A476B78C1E20860550AF27A /* noui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = noui.h; path = "bitcoin-0.12.1/src/noui.h"; sourceTree = "<group>"; };
+		1A476B8C06B7E1736CE3E472 /* compat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = compat; path = "bitcoin-0.12.1/src/compat"; sourceTree = "<group>"; };
+		1A476B91FDF0ACB915AD7AAB /* bloom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bloom.h; path = "bitcoin-0.12.1/src/bloom.h"; sourceTree = "<group>"; };
+		1A476B927ABA5BB2959EE44A /* libbitcoin_server_a-txdb.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-txdb.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-txdb.o"; sourceTree = "<group>"; };
+		1A476B9E5227EE2129CC383E /* libbitcoin_server_a-bloom.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-bloom.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-bloom.o"; sourceTree = "<group>"; };
+		1A476BB4F2EABE1ED6FDC7B0 /* httpserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = httpserver.h; path = "bitcoin-0.12.1/src/httpserver.h"; sourceTree = "<group>"; };
+		1A476BB656629E8A3B9E540C /* libbitcoin_server_a-validationinterface.o-9992a572 */ = {isa = PBXFileReference; lastKnownFileType = "file.o-9992a572"; name = "libbitcoin_server_a-validationinterface.o-9992a572"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-validationinterface.o-9992a572"; sourceTree = "<group>"; };
+		1A476C092739E574A6CDDBA5 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 1; lastKnownFileType = sourcecode.make; name = Makefile; path = "bitcoin-0.12.1/src/Makefile"; sourceTree = "<group>"; };
+		1A476C0B632C33931635A90A /* core_write.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = core_write.cpp; path = "bitcoin-0.12.1/src/core_write.cpp"; sourceTree = "<group>"; };
+		1A476C2FA168CDF1DD57EDAF /* rpcmining.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rpcmining.cpp; path = "bitcoin-0.12.1/src/rpcmining.cpp"; sourceTree = "<group>"; };
+		1A476C3FDC12CA4CF67E2A95 /* pubkey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pubkey.cpp; path = "bitcoin-0.12.1/src/pubkey.cpp"; sourceTree = "<group>"; };
+		1A476C499ECDCE391A55E345 /* libbitcoin_server_a-rpcmining.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-rpcmining.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-rpcmining.o"; sourceTree = "<group>"; };
+		1A476C5303A92B1D57EC3FB5 /* ui_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ui_interface.h; path = "bitcoin-0.12.1/src/ui_interface.h"; sourceTree = "<group>"; };
+		1A476C5913CD85171BB638FE /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = file.in; name = Makefile.in; path = "bitcoin-0.12.1/src/Makefile.in"; sourceTree = "<group>"; };
+		1A476C7129F2DE4CA4C7089D /* libbitcoin_server_a-httpserver.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-httpserver.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-httpserver.o"; sourceTree = "<group>"; };
+		1A476C7A87EA64DA4DBB9C3B /* hash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hash.cpp; path = "bitcoin-0.12.1/src/hash.cpp"; sourceTree = "<group>"; };
+		1A476C7C4B564CE1E7F445D0 /* amount.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = amount.cpp; path = "bitcoin-0.12.1/src/amount.cpp"; sourceTree = "<group>"; };
+		1A476C80C68AE0774D2830A9 /* versionbits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = versionbits.cpp; path = "bitcoin-0.12.1/src/versionbits.cpp"; sourceTree = "<group>"; };
+		1A476C910D3B227B5263643B /* Makefile.test.include */ = {isa = PBXFileReference; lastKnownFileType = file.include; name = Makefile.test.include; path = "bitcoin-0.12.1/src/Makefile.test.include"; sourceTree = "<group>"; };
+		1A476C9FA5953A0F2EA806A7 /* torcontrol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = torcontrol.cpp; path = "bitcoin-0.12.1/src/torcontrol.cpp"; sourceTree = "<group>"; };
+		1A476CBAE1F9CBB2243CED21 /* tinyformat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyformat.h; path = "bitcoin-0.12.1/src/tinyformat.h"; sourceTree = "<group>"; };
+		1A476CBB2F16F6327EB838CD /* libbitcoin_server_a-main.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-main.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-main.o"; sourceTree = "<group>"; };
+		1A476CC2A761508DC073574A /* utilmoneystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utilmoneystr.h; path = "bitcoin-0.12.1/src/utilmoneystr.h"; sourceTree = "<group>"; };
+		1A476D07B9B802B56AB23833 /* script */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = script; path = "bitcoin-0.12.1/src/script"; sourceTree = "<group>"; };
+		1A476D099EAD0AAE52230EAF /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = "bitcoin-0.12.1/src/version.h"; sourceTree = "<group>"; };
+		1A476D0D50BA3BB2664D0EC8 /* keystore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = keystore.h; path = "bitcoin-0.12.1/src/keystore.h"; sourceTree = "<group>"; };
+		1A476D369D1D995BC12F894A /* secp256k1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = secp256k1; path = "bitcoin-0.12.1/src/secp256k1"; sourceTree = "<group>"; };
+		1A476D459B4B9FBC032944E6 /* base58.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = base58.cpp; path = "bitcoin-0.12.1/src/base58.cpp"; sourceTree = "<group>"; };
+		1A476D45EACAA7CC31E6BA39 /* rest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rest.cpp; path = "bitcoin-0.12.1/src/rest.cpp"; sourceTree = "<group>"; };
+		1A476D5038F6F457268D217C /* alert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = alert.cpp; path = "bitcoin-0.12.1/src/alert.cpp"; sourceTree = "<group>"; };
+		1A476D7C87C6BBB62745A3FC /* Makefile.qt.include */ = {isa = PBXFileReference; lastKnownFileType = file.include; name = Makefile.qt.include; path = "bitcoin-0.12.1/src/Makefile.qt.include"; sourceTree = "<group>"; };
+		1A476DA3367923B4167D3D16 /* clientversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clientversion.h; path = "bitcoin-0.12.1/src/clientversion.h"; sourceTree = "<group>"; };
+		1A476E19B17652FEFA920D25 /* support */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = support; path = "bitcoin-0.12.1/src/support"; sourceTree = "<group>"; };
+		1A476E201CB37247E8093679 /* scheduler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = scheduler.cpp; path = "bitcoin-0.12.1/src/scheduler.cpp"; sourceTree = "<group>"; };
+		1A476E335E66E0BCE3008692 /* libbitcoin_server_a-alert.o-468b7b2e */ = {isa = PBXFileReference; lastKnownFileType = "file.o-468b7b2e"; name = "libbitcoin_server_a-alert.o-468b7b2e"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-alert.o-468b7b2e"; sourceTree = "<group>"; };
+		1A476E3B070642E9CCA3542E /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = util.h; path = "bitcoin-0.12.1/src/util.h"; sourceTree = "<group>"; };
+		1A476E4EC0A87FE6222F240A /* pubkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pubkey.h; path = "bitcoin-0.12.1/src/pubkey.h"; sourceTree = "<group>"; };
+		1A476E571E2251A7B63A0801 /* streams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = streams.h; path = "bitcoin-0.12.1/src/streams.h"; sourceTree = "<group>"; };
+		1A476E573715E8EC05F80B98 /* bitcoind-bitcoind.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "bitcoind-bitcoind.o"; path = "bitcoin-0.12.1/src/bitcoind-bitcoind.o"; sourceTree = "<group>"; };
+		1A476E5B7918C6F3E0EF7D73 /* Makefile.qttest.include */ = {isa = PBXFileReference; lastKnownFileType = file.include; name = Makefile.qttest.include; path = "bitcoin-0.12.1/src/Makefile.qttest.include"; sourceTree = "<group>"; };
+		1A476EB73C399A413808A03A /* checkpoints.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = checkpoints.cpp; path = "bitcoin-0.12.1/src/checkpoints.cpp"; sourceTree = "<group>"; };
+		1A476F666DC077B2E4AA90E8 /* pow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pow.cpp; path = "bitcoin-0.12.1/src/pow.cpp"; sourceTree = "<group>"; };
+		1A476F6E1526EE9DC51DB2E9 /* libbitcoin_server_a-checkpoints.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-checkpoints.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-checkpoints.o"; sourceTree = "<group>"; };
+		1A476F7AA9F55492523312D4 /* libbitcoin_util.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbitcoin_util.a; path = "bitcoin-0.12.1/src/libbitcoin_util.a"; sourceTree = "<group>"; };
+		1A476F82BB99624B8C7EB20A /* compressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compressor.h; path = "bitcoin-0.12.1/src/compressor.h"; sourceTree = "<group>"; };
+		1A476F86CA38D6DA4D35661F /* rpcserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rpcserver.cpp; path = "bitcoin-0.12.1/src/rpcserver.cpp"; sourceTree = "<group>"; };
+		1A476F883F79C8CB92C087C8 /* libbitcoin_server_a-noui.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = "libbitcoin_server_a-noui.o"; path = "bitcoin-0.12.1/src/libbitcoin_server_a-noui.o"; sourceTree = "<group>"; };
+		1A476F8E34E5D30479D6B516 /* arith_uint256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arith_uint256.h; path = "bitcoin-0.12.1/src/arith_uint256.h"; sourceTree = "<group>"; };
+		1A476FB7217C07979AFC8C1C /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = "bitcoin-0.12.1/src/init.h"; sourceTree = "<group>"; };
+		1A476FCCA448C0423EBBB8D8 /* net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = net.h; path = "bitcoin-0.12.1/src/net.h"; sourceTree = "<group>"; };
+		1A476FE1C569C2734D06A82C /* bitcoin-cli.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "bitcoin-cli.cpp"; path = "bitcoin-0.12.1/src/bitcoin-cli.cpp"; sourceTree = "<group>"; };
+		1A476FE7926213CF339B9FF0 /* miner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = miner.h; path = "bitcoin-0.12.1/src/miner.h"; sourceTree = "<group>"; };
+		1A476FE84A27965698CC2487 /* clientversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = clientversion.cpp; path = "bitcoin-0.12.1/src/clientversion.cpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00645004205B624A008EE973 = {
+			isa = PBXGroup;
+			children = (
+				1A47601E45B60167A4FAC2D8 /* addrman.cpp */,
+				1A47672C0187561F632A1A72 /* addrman.h */,
+				1A476D5038F6F457268D217C /* alert.cpp */,
+				1A476106BE1C281E30FD93DE /* alert.h */,
+				1A476C7C4B564CE1E7F445D0 /* amount.cpp */,
+				1A47613198A62ED6D97EABBC /* amount.h */,
+				1A47634D2AA4DF984FD98A3E /* arith_uint256.cpp */,
+				1A476F8E34E5D30479D6B516 /* arith_uint256.h */,
+				1A476D459B4B9FBC032944E6 /* base58.cpp */,
+				1A476470D75745315961874D /* base58.h */,
+				1A476399E0F2C6E42F453DA2 /* bench */,
+				1A4763ACB8989249BDDA5BCE /* bitcoin-cli-res.rc */,
+				1A476FE1C569C2734D06A82C /* bitcoin-cli.cpp */,
+				1A476006BBAC9BF5BD409B5A /* bitcoin-tx-res.rc */,
+				1A476AD5E68366D10E6108AF /* bitcoin-tx.cpp */,
+				1A476E573715E8EC05F80B98 /* bitcoind-bitcoind.o */,
+				1A4762B196A08D1338699FD5 /* bitcoind-res.rc */,
+				1A476712DD8FCBF1B0BC4F2B /* bitcoind.cpp */,
+				1A47606CDAB1DEE7BE194C3B /* bloom.cpp */,
+				1A476B91FDF0ACB915AD7AAB /* bloom.h */,
+				1A476440574926E3F73C261A /* chain.cpp */,
+				1A476A727C119EDE032861F5 /* chain.h */,
+				1A4762B618479E1BDC91D889 /* chainparams.cpp */,
+				1A4769BBE13EA39DE7F250F5 /* chainparams.h */,
+				1A47636C553F95D51427F9D0 /* chainparamsbase.cpp */,
+				1A476494E918332D20899BFF /* chainparamsbase.h */,
+				1A476137E7CB87B1BCCE9D3F /* chainparamsseeds.h */,
+				1A476EB73C399A413808A03A /* checkpoints.cpp */,
+				1A4761BE683E30AE32D6C10B /* checkpoints.h */,
+				1A47637128827440C0AB9754 /* checkqueue.h */,
+				1A476FE84A27965698CC2487 /* clientversion.cpp */,
+				1A476DA3367923B4167D3D16 /* clientversion.h */,
+				1A476AAFDF0B45EF474E2D13 /* coincontrol.h */,
+				1A476288C1E4386532F082E3 /* coins.cpp */,
+				1A47617D212ECD0402B86F57 /* coins.h */,
+				1A476B8C06B7E1736CE3E472 /* compat */,
+				1A47627BE2F059C3024F4F24 /* compat.h */,
+				1A47646CF272D63AE7C661BC /* compressor.cpp */,
+				1A476F82BB99624B8C7EB20A /* compressor.h */,
+				1A4769D86BB61B2888033389 /* config */,
+				1A4769D7B91AB6EC8AD03757 /* consensus */,
+				1A4762DF41F4CF4511BE8BCA /* core_io.h */,
+				1A4766151C45A8A6D4BD7FD3 /* core_memusage.h */,
+				1A4767BB5B3B6D689BD30FD3 /* core_read.cpp */,
+				1A476C0B632C33931635A90A /* core_write.cpp */,
+				1A4764BDF7A3226F6BB21B09 /* crypto */,
+				1A4760AC5576FEF469D5FFBB /* dbwrapper.cpp */,
+				1A4763F2E0F3046AB16C9D0D /* dbwrapper.h */,
+				1A476C7A87EA64DA4DBB9C3B /* hash.cpp */,
+				1A4768D3F465727A045BA2C3 /* hash.h */,
+				1A47621523311244E7A4B641 /* httprpc.cpp */,
+				1A4763BD5FDF2249FB6DA2B1 /* httprpc.h */,
+				1A4764F5A1BBBB779305EFBC /* httpserver.cpp */,
+				1A476BB4F2EABE1ED6FDC7B0 /* httpserver.h */,
+				1A47670820E2DB63A7ED319E /* init.cpp */,
+				1A476FB7217C07979AFC8C1C /* init.h */,
+				1A476853182EC9A8EBB4451A /* key.cpp */,
+				1A47690961B3E526EAB2A800 /* key.h */,
+				1A476270C1BDC98DC83F9FBE /* keystore.cpp */,
+				1A476D0D50BA3BB2664D0EC8 /* keystore.h */,
+				1A47624248EDBFC8EB9C41D6 /* leveldb */,
+				1A47648E67CEE5C8AB88CC36 /* libbitcoin_cli.a */,
+				1A47602110A5B8228492F875 /* libbitcoin_common.a */,
+				1A476A626623657CFD3419F1 /* libbitcoin_server_a-addrman.o */,
+				1A476932B625BF7CFF17574E /* libbitcoin_server_a-alert.o */,
+				1A476E335E66E0BCE3008692 /* libbitcoin_server_a-alert.o-468b7b2e */,
+				1A476B9E5227EE2129CC383E /* libbitcoin_server_a-bloom.o */,
+				1A4769F1731C9700E7EDCF19 /* libbitcoin_server_a-chain.o */,
+				1A476F6E1526EE9DC51DB2E9 /* libbitcoin_server_a-checkpoints.o */,
+				1A4768D566F5F8A377A52A9E /* libbitcoin_server_a-checkpoints.o-8666c861 */,
+				1A47670BEAF1320D7F5E1184 /* libbitcoin_server_a-dbwrapper.o */,
+				1A476B3531F0246D471001C8 /* libbitcoin_server_a-httprpc.o */,
+				1A476C7129F2DE4CA4C7089D /* libbitcoin_server_a-httpserver.o */,
+				1A4761CDF51A8FBFBB6838AE /* libbitcoin_server_a-init.o */,
+				1A476CBB2F16F6327EB838CD /* libbitcoin_server_a-main.o */,
+				1A47626D05E8849E397126A1 /* libbitcoin_server_a-merkleblock.o */,
+				1A4769C949B6F6E16303919E /* libbitcoin_server_a-miner.o */,
+				1A4761EFD2197F5744C790B0 /* libbitcoin_server_a-net.o */,
+				1A476F883F79C8CB92C087C8 /* libbitcoin_server_a-noui.o */,
+				1A4762AA320EC8B1EA62BB50 /* libbitcoin_server_a-pow.o */,
+				1A4769E25577CF5B0DED0118 /* libbitcoin_server_a-rest.o */,
+				1A47625AEF2F22F684C08F8D /* libbitcoin_server_a-rpcblockchain.o */,
+				1A476C499ECDCE391A55E345 /* libbitcoin_server_a-rpcmining.o */,
+				1A476742C572BF0FAF26C594 /* libbitcoin_server_a-rpcmisc.o */,
+				1A4768FB078C1649799BE72D /* libbitcoin_server_a-rpcnet.o */,
+				1A4768F3AFE982CAC18DF1E7 /* libbitcoin_server_a-rpcrawtransaction.o */,
+				1A476AB85E58D33E9C6A57E6 /* libbitcoin_server_a-rpcserver.o */,
+				1A4760473701F878A4E3F4AB /* libbitcoin_server_a-timedata.o */,
+				1A4769A8FE017352C5D26931 /* libbitcoin_server_a-torcontrol.o */,
+				1A476B927ABA5BB2959EE44A /* libbitcoin_server_a-txdb.o */,
+				1A4769B2E9F30D696A3357F8 /* libbitcoin_server_a-txmempool.o */,
+				1A476BB656629E8A3B9E540C /* libbitcoin_server_a-validationinterface.o-9992a572 */,
+				1A4768E664E4C6010463E3CF /* libbitcoin_server.a */,
+				1A476F7AA9F55492523312D4 /* libbitcoin_util.a */,
+				1A4763C337E36D5B3A2BA2E9 /* libbitcoin_wallet.a */,
+				1A476149914A6FF7C90F6254 /* limitedmap.h */,
+				1A47683D9F7A00064E48FE34 /* main.cpp */,
+				1A476A6EFE68D33149C16368 /* main.h */,
+				1A476C092739E574A6CDDBA5 /* Makefile */,
+				1A476B106F33E3DED7CE3979 /* Makefile.am */,
+				1A476A75F55A86A3B5A7D39F /* Makefile.bench.include */,
+				1A476C5913CD85171BB638FE /* Makefile.in */,
+				1A476D7C87C6BBB62745A3FC /* Makefile.qt.include */,
+				1A476E5B7918C6F3E0EF7D73 /* Makefile.qttest.include */,
+				1A476C910D3B227B5263643B /* Makefile.test.include */,
+				1A47684044B83FB87A82CE75 /* memusage.h */,
+				1A476AFC49AC65230E2DD0C5 /* merkleblock.cpp */,
+				1A4765D762D8034FF071778D /* merkleblock.h */,
+				1A4765D5EB5A385BACD0593C /* miner.cpp */,
+				1A476FE7926213CF339B9FF0 /* miner.h */,
+				1A47655A4F077A77156CCE28 /* net.cpp */,
+				1A476FCCA448C0423EBBB8D8 /* net.h */,
+				1A47620A7077BE8F2DB5E5DA /* netbase.cpp */,
+				1A4763BA6A641AAB5075D8C8 /* netbase.h */,
+				1A4763C30703F6DFD6590402 /* noui.cpp */,
+				1A476B78C1E20860550AF27A /* noui.h */,
+				1A4761CA3163524E5C43B81B /* obj */,
+				1A476AB0A04D75C73E20E618 /* policy */,
+				1A476F666DC077B2E4AA90E8 /* pow.cpp */,
+				1A4768528C6BBEF97275D42C /* pow.h */,
+				1A47685763BF46A9A15095AD /* prevector.h */,
+				1A476AE9E84ED4C1AB4CFFD3 /* primitives */,
+				1A47645585096C58C2002A4C /* protocol.cpp */,
+				1A4761C25D2D6B4E08532303 /* protocol.h */,
+				1A476C3FDC12CA4CF67E2A95 /* pubkey.cpp */,
+				1A476E4EC0A87FE6222F240A /* pubkey.h */,
+				1A47698D960706074222BB52 /* qt */,
+				1A476AC32353308FAD37DBB6 /* random.cpp */,
+				1A476ACDC1B6E967DAC38FD5 /* random.h */,
+				1A476D45EACAA7CC31E6BA39 /* rest.cpp */,
+				1A4767F83933297FC647E6E3 /* reverselock.h */,
+				1A4763D49CD84EE1443E96A1 /* rpcblockchain.cpp */,
+				1A4764DA22A758428C77396C /* rpcclient.cpp */,
+				1A476824A9B8128D3B26B47F /* rpcclient.h */,
+				1A476C2FA168CDF1DD57EDAF /* rpcmining.cpp */,
+				1A4765FB13AA0324B72A5277 /* rpcmisc.cpp */,
+				1A4763850C8092788F8FD590 /* rpcnet.cpp */,
+				1A4769B0F803CBF66B240589 /* rpcprotocol.cpp */,
+				1A4766ABCA1A2F89C85DF4F5 /* rpcprotocol.h */,
+				1A47645DAFAC22883A04F0CE /* rpcrawtransaction.cpp */,
+				1A476F86CA38D6DA4D35661F /* rpcserver.cpp */,
+				1A4768797CAD6226C9C22767 /* rpcserver.h */,
+				1A476E201CB37247E8093679 /* scheduler.cpp */,
+				1A47670BA274348612B39908 /* scheduler.h */,
+				1A476D07B9B802B56AB23833 /* script */,
+				1A476D369D1D995BC12F894A /* secp256k1 */,
+				1A476A33E01A7D0D0B1483EA /* serialize.h */,
+				1A476E571E2251A7B63A0801 /* streams.h */,
+				1A476E19B17652FEFA920D25 /* support */,
+				1A47669AB92BA31EE9AE6E11 /* sync.cpp */,
+				1A47624A069A104BC52A393F /* sync.h */,
+				1A4762C49568612EC4FC1EF5 /* test */,
+				1A4760FEC7856EE358FFDF89 /* threadsafety.h */,
+				1A476586784657F42833FD32 /* timedata.cpp */,
+				1A47637EE96848BDB6423F2E /* timedata.h */,
+				1A476CBAE1F9CBB2243CED21 /* tinyformat.h */,
+				1A476C9FA5953A0F2EA806A7 /* torcontrol.cpp */,
+				1A47662A385B976C426BB730 /* torcontrol.h */,
+				1A47618D682A335ADA362DA3 /* txdb.cpp */,
+				1A4765A2B06783865E19893A /* txdb.h */,
+				1A4767B9F500B2B7EAF1109B /* txmempool.cpp */,
+				1A47608BC8C63A13CF4E1F14 /* txmempool.h */,
+				1A476C5303A92B1D57EC3FB5 /* ui_interface.h */,
+				1A4768AB217F0666F4623E7F /* uint256.cpp */,
+				1A476ACC4EFD5741AAE264E3 /* uint256.h */,
+				1A47635E33E1E96B6347DE85 /* undo.h */,
+				1A47648A89A3126F8A937EDD /* univalue */,
+				1A4765802D2537F23081EEFC /* util.cpp */,
+				1A476E3B070642E9CCA3542E /* util.h */,
+				1A476468CB0550220F77BB01 /* utilmoneystr.cpp */,
+				1A476CC2A761508DC073574A /* utilmoneystr.h */,
+				1A476B21A49D4DFFC9BC62A5 /* utilstrencodings.cpp */,
+				1A47627159A5CBAF0E7404B3 /* utilstrencodings.h */,
+				1A4766547841FC09240147E3 /* utiltime.cpp */,
+				1A47691A2E3ABB6E1E88B469 /* utiltime.h */,
+				1A476B3B863AB857C825ECE4 /* validationinterface.cpp */,
+				1A476B4555751C4781F21BDC /* validationinterface.h */,
+				1A476D099EAD0AAE52230EAF /* version.h */,
+				1A476C80C68AE0774D2830A9 /* versionbits.cpp */,
+				1A4760738A0B8181524B89C2 /* versionbits.h */,
+				1A47675054C63C36A143DC17 /* wallet */,
+				1A47656B6F6B302E9AB38FB2 /* zmq */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		00645009205B624A008EE973 /* srcBitcoin */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 0064500C205B624A008EE973 /* Build configuration list for PBXLegacyTarget "srcBitcoin" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Volumes/COOL_HDD/work_2/project/myproject/bitcoin/srcBitcoin/bitcoin-0.12.1/src";
+			dependencies = (
+			);
+			name = srcBitcoin;
+			passBuildSettingsInEnvironment = 1;
+			productName = srcBitcoin;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		00645005205B624A008EE973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lyc;
+				TargetAttributes = {
+					00645009205B624A008EE973 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 00645008205B624A008EE973 /* Build configuration list for PBXProject "srcBitcoin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00645004205B624A008EE973;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00645009205B624A008EE973 /* srcBitcoin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		0064500A205B624A008EE973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		0064500B205B624A008EE973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		0064500D205B624A008EE973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PROJECT_DIR}/bitcoin-0.12.1/src\"/**",
+					"\"${PROJECT_DIR}/bitcoin-0.12.1/src\"/**",
+					"\"${PROJECT_DIR}/bitcoin-0.12.1/src\"/**",
+					"\"${PROJECT_DIR}/bitcoin-0.12.1/src\"/**",
+					"\"${PROJECT_DIR}/bitcoin-0.12.1/src\"/**",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0064500E205B624A008EE973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PROJECT_DIR}/bitcoin-0.12.1/src\"/**",
+					"\"${PROJECT_DIR}/bitcoin-0.12.1/src\"/**",
+					"\"${PROJECT_DIR}/bitcoin-0.12.1/src\"/**",
+					"\"${PROJECT_DIR}/bitcoin-0.12.1/src\"/**",
+					"\"${PROJECT_DIR}/bitcoin-0.12.1/src\"/**",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00645008205B624A008EE973 /* Build configuration list for PBXProject "srcBitcoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0064500A205B624A008EE973 /* Debug */,
+				0064500B205B624A008EE973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0064500C205B624A008EE973 /* Build configuration list for PBXLegacyTarget "srcBitcoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0064500D205B624A008EE973 /* Debug */,
+				0064500E205B624A008EE973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00645005205B624A008EE973 /* Project object */;
+}

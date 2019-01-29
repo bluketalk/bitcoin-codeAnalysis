@@ -1,0 +1,9 @@
+*.pyc
+cache
+*.o
+*.pro
+*.po
+bitcoin-0.12.1/src/bitcoind
+bitcoin-0.12.1/src/bitcoin-cli
+bitcoin-0.12.1/src/bitcoin-tx
+bitcoin-0.12.1/src/test/test_bitcoin
